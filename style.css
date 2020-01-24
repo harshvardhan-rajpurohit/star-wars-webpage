@@ -1,0 +1,149 @@
+@font-face{
+    font-family: starwars;
+    src: url(fonts/star-jedi/Starjout.ttf);
+}
+
+body,html{
+    font-family: starwars;
+}
+
+.bg-img{
+    background-image: url(images/star-wars-side-selection-back.jpg);
+    background-size: cover;
+    margin-right: -0.1em;
+}
+.logotop{
+    background-image: url(images/logo-row1-trial.png),url(images/space-1164579_1920.png);
+     background-blend-mode: luminosity;
+     box-shadow: inset 0px 0px 20px 20px rgba(0, 0, 0, 1);
+    background-color: black; 
+    background-size: auto;
+}
+.side-selection{
+    float: none;
+    margin: .1rem -1rem 0.2em -1em;
+     padding-left: 0rem; 
+     padding-right: -1rem;
+}
+.verline{
+border: thick solid;
+margin: -0.2em auto; 
+/* border-image: linear-gradient(rgba(47,103,248,1) 0%, rgba(32,73,217,1) 16%, rgba(67,224,177,1) 33%, rgba(123,236,84,1) 49%, rgba(107,224,68,1) 65%, rgba(236,28,28,1) 81%);
+border-image-slice: 1; */
+}
+.resistance-side{
+    margin: -0.1em;
+    background-image: url(images/resistance.jpg);
+    background-size: cover;
+    background-position-x: -16em;
+    box-shadow: inset 0px 0px 150px 60px rgba(0, 0, 0, 1);
+}
+.resistance-side:hover{
+    opacity: 70%;
+}
+.first-order-side{
+    margin: -0.1em;
+    background-image: url(images/first-order.jpg);
+    background-size: cover;
+    background-position-x: -12em;
+    box-shadow: inset 0px 0px 150px 60px rgba(0, 0, 0, 1);
+}
+.first-order-side:hover{
+    opacity: 50%;
+}
+
+.padding{
+    /* padding-bottom: .5rem; */
+    padding-top: 2rem;
+  }
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75% ;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+  }
+.btn-primary{
+    border: 1px solid #08f;
+    color: #00aced;
+    float: right;
+    margin-right: 2rem;
+  }
+.btn-primary:hover {
+    background-color: #00aced;
+    border: 1px solid#00aced;
+    color: #d5d5d5;
+  }
+
+.btn-secondary{
+    border: 1px solid #08f;
+    color: #00aced;
+    float: none;
+    margin-top: 5rem;
+  }
+.btn-secondary:hover {
+    background-color: #00aced;
+    border: 1px solid#00aced;
+    color: #d5d5d5;
+  }
+.welcome{
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #FFDE06;
+  }
+.welcome-text{
+  font-size: 75%;
+  color: #555;
+}
+footer{
+    background-image: url(images/icon-star-wars-26-white.png),url(images/space-1164579_1920.png);
+    background-blend-mode: luminosity;
+     box-shadow: inset 0px 0px 50px 50px rgba(0, 0, 0, 1);
+    background-color: black; 
+    color: #d5d5d5;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    margin-top: -0.1em;
+  }
+.social a {
+    font-size: 2em;
+    display: inline-flex;
+    float: right;
+    padding-right: 2rem;
+    color: #FFDE06;
+  }
+.footer h5{
+  color: #FFDE06;
+padding-left: 5%;
+}
+.fa-facebook,
+.fa-instagram,
+.fa-twitter,
+.fa-google-plus-g{
+    color: #FFDE06;
+  }
+.fa-facebook:hover{
+    color: #3b5998;
+}
+.fa-twitter:hover{
+    color: #00aced;
+}
+.fa-google-plus-g:hover{
+    color: #dd4b39;
+}
+.fa-instagram:hover{
+    color: rgba(253,29,29,1) ;
+  }
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+    
+      }
+@media (max-width: 768px) {
+    
+}
+      
+@media (max-width: 576px) {
+    
+}   
